@@ -5,14 +5,14 @@ export default class Footer extends Component {
 	render() {
 		return (
 			<>
-				<footer className="footer pt-2 ">
+				<footer className="footer pt-2">
 					<div className="container mt-2">
 						<div className="row d-flex justify-content-between">
 							<div className="col-md-4 footer-links text-center">
 								<div className="container">
-									<a href="https://github.com/Gathaus" target="_blank" className="">Github</a>
-									<a href="https://www.instagram.com/rizamertyagci/" target="_blank">Instagram</a>
-									<a href="https://www.linkedin.com/in/rmy1/" target="_blank">Linkedin</a>
+									<a href="#" target="_blank" className="">Github</a>
+									<a href="#" target="_blank">Instagram</a>
+									<a href="#" target="_blank">Linkedin</a>
 								</div>
 							</div>
 							<div className="col-md-5 text-right footer-text-container">

@@ -4,7 +4,8 @@ footer {
 	background-color: #252525;
 	position: absolute;
 	bottom: 0;
-	width: 90%;
+	left: 0;
+	width: 100%;
 }
 
 footer .container,
