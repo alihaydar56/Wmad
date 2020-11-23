@@ -4,6 +4,7 @@ import SliderComponent from "./Components/Slider";
 import { Switch, Route } from "react-router-dom";
 import Anasayfa from "./Components/Anasayfa";
 import Projeler from "./Components/Projeler";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/projeler" component={Projeler}></Route>
         </Switch>
       </Container>
+      <Footer/>
     </div>
   );
 }
