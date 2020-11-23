@@ -6,7 +6,13 @@ import Anasayfa from "./Components/Anasayfa";
 import Projeler from "./Components/Projeler";
 function App() {
   return (
-    <div>
+    <div
+            style={{
+                position: "relative",
+                minHeight: 100 + "vh",
+                paddingBottom: 3 + "rem",
+            }}
+        >
       <Container>
         <Switch>
           <Route exact path="/">
